@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html data-ng-app="infobipapp">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Infobfip Angular Implementation</title>
+	<link rel="shortcut icon" href="" type="image/x-icon">
+	<link rel="stylesheet" href="assets/css/fontawesome/css/font-awesome.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/mainstyle.css" type="text/css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div ui-view></div>
+		</div>
+	</div>
+	
+	<script src="assets/vendor/jquery.min.js"></script>
+	<script src="assets/vendor/jquery.toaster.js"></script>
+	<script src="assets/vendor/angular.min.js"></script>
+	<script src="assets/vendor/angular-ui-router.min.js"></script>
+
+	<script src="app/main/main.js"></script>
+	<script src="app/directive/productlist.directive.js"></script>
+	<script src="app/services/savefile_services.js"></script>
+	<script src="app/main/main.controller.js"></script>
+</body>
+</html>
